@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='lib/jquery.js'></script>
+    <script src='js/script.js'></script>
+    <link rel="stylesheet" href="css/animation_styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Varsha Singh- Portfolio</title>
+</head>
+
+<body>
+    <div class="container-portfolio">
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navi">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand"><img id="logo" src="images/logo.jpg" alt="logo"></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navi">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#" id="aboutLink">About</a></li>
+                        <li><a href="#skills">Skill</a></li>
+                        <li><a href="#project">Projects</a></li>
+                        <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- <li><a href="https://github.com/Varsha2211/"><img id="github" src="images/git.png" alt="github"></a></li> -->
+                        <li><a href="https://www.linkedin.com/in/varsha-singh-0a7491169"><img id="linkedin"
+                                    src="images/linkedin.png" alt="linkedin"></a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="container-fluid" id='intro'>
+                <div class="row intro">
+                    <div class="col-lg-6  left-side">
+                            <h1 class="main-animation">Hi,</h1>
+                            <h1 class="main-animation">I'am Varsha Singh</h1>
+                            <h1 class="main-animation">Web Designer & Web Developer</h1>
+                    </div>
+
+                    <div class="col-lg-6  right-side">
+                       <img id="varsha" src="images/varsha.jpg" alt="Varsha">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <!-- <div class="about" id="about">
+            <div class="aboutHeading">
+                <img id='aboutimg' src="images/about.png" alt="about">
+            </div>
+            <div class="aboutContent">
+                <img id='abouttext' src="images/aboutcontent.png" alt="about">
+            </div>
+        </div> -->
+
+            <!-- <div class="skills" id="skills">
+            <div class="skillsHeading">
+                <img id='skillsimg' src="images/skills.jpg" alt="skills">
+            </div>
+            <div class="html">
+                <img id='html' src="images/1.png" alt="html">
+                <p> HTML </p>
+                <div class="bar">
+                    <div class="percentHtml">95%</div>
+                </div>
+            </div>
+            <div class="css">
+                <img id='css' src="images/2.png" alt="css">
+                <p> CSS</p>
+                <div class="bar">
+                    <div class="percentCss">70%</div>
+                </div>
+
+            </div>
+            <div class="javascript">
+                <img id='javascript' src="images/3.png" alt="javascript">
+                <p> Javascript </p>
+                <div class="bar">
+                    <div class="percentJavascript">60%</div>
+                </div>
+
+            </div>
+            <div class="bootstrap">
+                <img id='bootstrap' src="images/4.png" alt="bootstrap">
+                <p> Bootstrap </p>
+                <div class="bar">
+                    <div class="percentBootstrap">50%</div>
+                </div>
+
+            </div>
+            <div class="rdbms">
+                <img id='rdbms' src="images/5.png" alt="rdbms">
+                <p> RDBMS </p>
+                <div class="bar">
+                    <div class="percentRdbms">70%</div>
+                </div>
+
+            </div>
+        </div> -->
+
+
+            <!-- <div class="project" id="project">
+            <div class="projectHeading">
+                <img id='projectimg' src="images/project.png" alt="project">
+                <h1 id="projectH1">Projects</h1>
+            </div>
+
+            <div class='sc'>
+                <div class="w3-container ">
+                    <h2 id='sc'>TECHNEX, IIT VARANASI</h2>
+                    <a id="projectlinks"
+                        href="https://drive.google.com/file/d/1-2HGFTYBsgYExF-IV4KjsKWcr1HmlnsQ/view?usp=sharing">
+                        Project Video Link</a>
+                    <P></P>
+                </div>
+                <div class="w3-content">
+                    <img class="mySlides" src="images/1.jpg" style="width:100%;display:none">
+                    <img class="mySlides" src="images/2.jpg" style="width:100%;display:none">
+                    <img class="mySlides" src="images/3.jpg" style="width:100%;display:none">
+
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="images/1.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv(1)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="images/2.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv(2)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="images/3.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv(3)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ep">
+                <div class='w3-container'>
+                    <h2 id='ep'>SIH SOFTWARE 2019</h2>
+                </div>
+                <div class="w3-content">
+                    <img class="mySlides1" src="images/12.png" style="width:100%;display:none">
+                    <img class="mySlides1" src="images/13.png" style="width:100%;display:none">
+                    <img class="mySlides1" src="images/7.jpg" style="width:100%;display:none">
+                    <img class="mySlides1" src="images/8.jpg" style="width:100%;display:none">
+                    <img class="mySlides1" src="images/9.jpg" style="width:100%;display:none">
+
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo1 w3-opacity w3-hover-opacity-off" src="images/12.png"
+                                style="width:90%;cursor:pointer" onclick="currentDiv1(1)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo1 w3-opacity w3-hover-opacity-off" src="images/13.png"
+                                style="width:90%;cursor:pointer" onclick="currentDiv1(2)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo1 w3-opacity w3-hover-opacity-off" src="images/7.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv1(3)">
+                        </div>
+                    </div>
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo1 w3-opacity w3-hover-opacity-off" src="images/8.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv1(4)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo1 w3-opacity w3-hover-opacity-off" src="images/9.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv1(5)">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="phs">
+                <div class='w3-container'>
+                    <h2 id='phs'>INTERNSHIP PROJECT</h2>
+                </div>
+                <div class="w3-content">
+                    <img class="mySlides2" src="images/14.png" style="width:100%;display:none">
+                    <img class="mySlides2" src="images/15.png" style="width:100%;display:none">
+
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/14.png"
+                                style="width:90%;cursor:pointer" onclick="currentDiv2(1)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo2 w3-opacity w3-hover-opacity-off" src="images/15.png"
+                                style="width:90%;cursor:pointer" onclick="currentDiv2(2)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mvm">
+                <div class='w3-container'>
+                    <h2 id='mvm'>MAJOR PROJECT</h2>
+                    <a id="projectlinks"
+                        href="https://drive.google.com/folderview?id=1egTSlzn4z8IFNkII8BzVohx5MV59Cmkd">Project Video
+                        Link</a>
+                    <P></P>
+                </div>
+
+                <div class="w3-content">
+                    <img class="mySlides3" src="images/16.png" style="width:100%;display:none">
+                    <img class="mySlides3" src="images/17.png" style="width:100%;display:none">
+                    <img class="mySlides3" src="images/18.png" style="width:100%;display:none">
+
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo3 w3-opacity w3-hover-opacity-off" src="images/16.png"
+                                style="width:90%;cursor:pointer" onclick="currentDiv3(1)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo3 w3-opacity w3-hover-opacity-off" src="images/17.png"
+                                style="width:90%;cursor:pointer" onclick="currentDiv3(2)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo3 w3-opacity w3-hover-opacity-off" src="images/18.png"
+                                style="width:90%;cursor:pointer" onclick="currentDiv3(3)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cms">
+                <div class='w3-container'>
+                    <h2 id='cms'>SIH HARDWARE 2019</h2>
+                </div>
+
+                <div class="w3-content">
+                    <img class="mySlides4" src="images/10.jpg" style="width:100%;display:none">
+                    <img class="mySlides4" src="images/11.jpg" style="width:100%;display:none">
+                    <img class="mySlides4" src="images/12.jpg" style="width:100%;display:none">
+
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo4 w3-opacity w3-hover-opacity-off" src="images/10.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv4(1)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo4 w3-opacity w3-hover-opacity-off" src="images/11.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv4(2)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo4 w3-opacity w3-hover-opacity-off" src="images/12.jpg"
+                                style="width:90%;cursor:pointer" onclick="currentDiv4(3)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+            <!-- <div class="achievements" id="achievements">
+            <div class="achievementHeading">
+                <img id="gif" src='images/acheivement.gif'>
+                <h1 id="achievementsH1">Achievements</h1>
+            </div>
+
+            <p id="ach">1st Position in IoT workshop held at BVCOE, 2017
+            <div id="flip">Certificate</div>
+            <div id="panel"><img id='certi' src="images/bhu.jpg" alt="IoT"></div>
+            </p>
+
+            <p id="ach">2nd Position in FERVOUR organized by BVCOE IEEE,2018
+            <div id="flip1">Certificate</div>
+            <div id="panel1"><img id='certi' src="images/fervour.jpg" alt="fervour"></div>
+            </p>
+
+            <p id="ach">3rd Position in EVOTECH organized by BVCOE CSI,2018
+            <div id="flip2">Certificate</div>
+            <div id="panel2"><img id='certi' src="images/Evotech.jpg" alt="Evotech"></div>
+            </p>
+
+            <p id="ach">3rd Position in IIT VARANASI TECHNEX ,2018
+            <div id="flip3">Certificate</div>
+            <div id="panel3"><img id='certi' src="images/bhu.jpg" alt="bhu"></div>
+            </p>
+
+        </div> -->
+            <!-- 
+        <div class="contact" id="contact">
+            <div class="contactHeading">
+                <img id="gif" src='images/contact.gif'>
+                <h1 id="contactH1">Contact</h1>
+            </div>
+            <table class="contactTable">
+                <tr>
+                    <td><img id='mobile' src="images/6.jpg" alt="mobile"></td>
+                    <td> 9560453880 </td>
+                </tr>
+                <tr>
+                    <td><img id='mobile' src="images/7.png" alt="email"></td>
+                    <td>varshasingh22111997@gmail.com</td>
+                </tr>
+                <tr>
+                    <td><img id='address' src="images/8.png" alt="address"></td>
+                    <td>New Dehi, India </td>
+                </tr>
+            </table>
+        </div> -->
+        </div>
+</body>
+
+</html>

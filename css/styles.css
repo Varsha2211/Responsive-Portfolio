@@ -1,4 +1,4 @@
-.container-portfolio { 
+.container {
     width: 100%;
 }
 
@@ -6,27 +6,23 @@ html {
     scroll-behavior: smooth;
 }
 
-img {
-    width: 100px;
-    height: 100px;
+.container-nav { 
+    width: 96%;
+    padding: 1%;
+    margin: 2%;
 }
 
-#projectH1, #contactH1, #achievementsH1 {
-    display: inline-block;
-    vertical-align: bottom;
-    font-size: 50px;
-    font-weight: 800;
-    font-family: cursive;
-    color: rgb(86, 230, 186);
-}
+.container-intro {
+    width: 96%;
+    padding: 1%;
+    margin: 2%;
 
-#gif {
-    display: inline-block;
-    width: 100px;
-    height: 80px;
-    margin-right: 20px;
 }
-
+.container-project {
+    width: 96%;
+    padding: 1%;
+    margin: 2%;
+}
 
 /*=================================================HEADING====================================================*/
 #logo {
@@ -70,23 +66,11 @@ a {
 }
 
 
-
 /*=================================================INTRODUCTION====================================================*/
 .intro{
     display: inline-block;
     width: 100%;
 }
-
-/* #about {
-    font-family: cursive;
-    font-size: 20px;
-    color: rgb(86, 230, 186);
-    background-color: rgb(105, 104, 104);
-}
-
-#about:hover {
-    color: rgb(59, 185, 243);
-} */
 
 .main-animation {
     font-weight: 700;
@@ -107,213 +91,13 @@ a {
     display: inline-block;
 }
 
+/*=================================================PROJECT===================================================*/
 
-/*=================================================ABOUT====================================================*/
-/* .about{
-    display: block;
-    text-align: center;
-    margin: 20px;
+.carousel-inner > .item > img {
+    width: 80%;
+    margin: auto;
 }
 
-#abouttext {
-    width: 1050px;
-    height: auto;
-}
-
-#aboutimg {
-    margin-top: 10px;
-    width: 200px;
-}
-
-.aboutContent {
-    justify-content: center;
-    font-style: italic;
-    padding: 20px;
-    font-family: cursive;
-    font-size: 20px;
-} */
-
-
-/*=================================================SKILLS====================================================*/
-.skills {
-    display: flex;
-    margin: 20px;
-    display: block;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-}
-
-#skillsimg {
-    width: 200px;
-}
-
-.bar {
-    width: 150px;
-    background-color: black;
-    border-radius: 10px;
-    text-align: center;
-    align-content: center;
-}
-
-.percentHtml {
-    align-items: center;
-    width: 135px;
-    background-color: rgb(86, 230, 186);
-    border-radius: 10px;
-}
-
-.percentCss {
-    align-items: center;
-    width: 115px;
-    background-color: rgb(86, 230, 186);
-    border-radius: 10px;
-}
-
-.percentJavascript {
-    align-items: center;
-    width: 105px;
-    background-color: rgb(86, 230, 186);
-    border-radius: 10px;
-}
-
-.percentBootstrap {
-    align-items: center;
-    width: 95px;
-    background-color: rgb(86, 230, 186);
-    border-radius: 10px;
-}
-
-.percentRdbms {
-    align-items: center;
-    width: 115px;
-    background-color: rgb(86, 230, 186);
-    border-radius: 10px;
-}
-
-.html, .css , .javascript, .bootstrap, .rdbms{
-    display: inline-block;
-    background-color: white;
-    padding: 20px;
-    border: rgb(10, 10, 10);
-    border: solid;
-    border-radius: 2px;
-    margin: 5px; 
-}
-
-
-/*=================================================CONTACT====================================================*/
-.contact {
-    text-align: center;
-    margin: 20px;
-}
-
-#contactImage {
-    width: 70px;
-    height: 70px;
-}
-
-.contactTable {
-    border: solid 4px rgb(0, 0, 0);
-    background-color: white;
-    width: auto;
-    height: auto;
-    margin: 20px;
-    margin-left: 370px;
-    padding:10px;
-}
-
-td {
-    padding:10px;
-    font-size: 30px;
-    font-weight: 700;
-    font-family: cursive;
-}
-
-
-/*=================================================PROJECTS===================================================*/
-.project {
-    display: block;
-    margin: 20px;
-    text-align: center;
-}
-
-#projectimg {
-    margin-top: 10px;
-    width: 100px;
-}
-
-#projectlinks {
-    color: rgb(86, 230, 186);
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-}
-
-#projectlinks:hover {
-    font-size: 25px;
-    color: rgb(0, 0, 0);
-}
-
-#sc,#phs,#ep,#mvm, #cms{
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 35px;
-    color: rgb(38, 106, 233);
-}
-
-.sc, .ep, .mvm, .phs, .cms{
-    display: inline-block;
-    text-align: justify;
-    width: 60%;
-    height: auto;
-    margin: 20px;
-    padding:20px;
-    border: 4px groove rgb(0, 0, 0);
-}
-
-.mySlides,.mySlides1,.mySlides2,.mySlides3, .mySlides4 {
-    width : 90%;
-    height: 50%;
-}
-
-.w3-left, .w3-right, .w3-badge {cursor:pointer}
-.w3-badge {height:13px;width:13px;padding:0}
-
-
-/*=================================================ACHEIVEMENTS===================================================*/
-.achievements {
-    display: block;
-    align-self: center;
-    text-align: center;
-    margin: 20px;
-    text-align: center;
-}
-
-#ach{
-    text-align: center;
-    padding: 10px;
-    font-family: cursive;
-    font-size: 20px;
-}
-
-#panel, #flip, #panel1, #flip1, #panel2, #flip2, #panel3, #flip3{
-    margin-left: 400px;
-    width: 500px;
-    padding: 5px;
-    font-family: cursive;
-    font-size: 20px;
-    font-weight: 700;
-    background-color: #8e9191;
-    border: inset 4px #070707;
-}
-  
-#panel, #panel1, #panel2, #panel3 {
-    padding: 50px;
-    display: none;
-}
-
-#certi {
-    width: 100%;
-    height: 100%;
+#carousel {
+    margin: 2%;
 }

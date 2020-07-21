@@ -67,29 +67,30 @@ a {
 
 
 /*=================================================INTRODUCTION====================================================*/
-.intro{
-    display: inline-block;
-    width: 100%;
+.container-intro{
+    width: 96%;
+    margin: 2%;
+    background-color: black;
 }
 
 .main-animation {
     font-weight: 700;
+    font-size: 200%;
     font-family: cursive;
+    color: coral;
 }
 
 #varsha {
     width: 250px;
-    height: 300px;
     border: inset rgb(0, 0, 0) 3px;
+    border-radius: 50%;
 }
 
-.left-side {
-    display: inline-block;
+.col-lg-12 {
+    text-align: center;
 }
 
-.right-side {
-    display: inline-block;
-}
+
 
 /*=================================================PROJECT===================================================*/
 

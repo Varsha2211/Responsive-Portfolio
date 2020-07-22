@@ -123,6 +123,78 @@ li {
 }
 
 
+/*=================================================SKILLS====================================================*/
+
+.container-skills {
+    width: 96%;
+    margin: 2%;
+    border: solid #b0b3b1 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.skill {
+    margin: 5%;
+}
+
+.html, .css , .javascript, .bootstrap, .rdbms {
+    background-color: white;
+    padding: 2%;
+    border: solid #000000 5px;
+    margin: 1%; 
+}
+
+.html-img, .css-img , .javascript-img, .bootstrap-img, .rdbms-img {
+    width: 40%;
+}
+
+.skillsimg {
+    width: 15%;
+}
+
+.bar {
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.percentHtml {
+    align-items: center;
+    width: 95%;
+    background-color: rgb(86, 230, 186);
+    border-radius: 10px;
+}
+
+.percentCss {
+    align-items: center;
+    width: 70%;
+    background-color: rgb(86, 230, 186);
+    border-radius: 10px;
+}
+
+.percentJavascript {
+    align-items: center;
+    width: 60%;
+    background-color: rgb(86, 230, 186);
+    border-radius: 10px;
+}
+
+.percentBootstrap {
+    align-items: center;
+    width: 50%;
+    background-color: rgb(86, 230, 186);
+    border-radius: 10px;
+}
+
+.percentRdbms {
+    align-items: center;
+    width: 70%;
+    background-color: rgb(86, 230, 186);
+    border-radius: 10px;
+}
+
+
 /*=================================================PROJECT===================================================*/
 
 .container-project {
@@ -139,7 +211,7 @@ li {
     margin-right: 5px;
 }
 
-.portfolio .portfolio-item {
+.project .project-item {
     cursor: pointer;
     position: relative;
     display: block;
@@ -148,7 +220,7 @@ li {
     margin: 2%;
   }
 
-.portfolio .portfolio-item .portfolio-item-caption {
+.project .project-item .project-item-caption {
     position: absolute;
     top: 0;
     left: 0;
@@ -157,21 +229,21 @@ li {
     background-color: rgba(26, 188, 156, 0.9);
 }
 
-.portfolio .portfolio-item .portfolio-item-caption:hover {
+.project .project-item .project-item-caption:hover {
     opacity: 1;
 }
 
-.portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
+.project .project-item .project-item-caption .project-item-caption-content {
     font-size: 1.5rem;
 }
   
-.portfolio-modal .portfolio-modal-title {
+.project-modal .project-modal-title {
     font-size: 2.25rem;
     line-height: 2rem;
 }
 
 @media (min-width: 992px) {
-    .portfolio-modal .portfolio-modal-title {
+    .project-modal .project-modal-title {
       font-size: 3rem;
       line-height: 2.5rem;
     }
